@@ -1,0 +1,86 @@
+body {
+   font-family: 'Alegreya Sans SC', sans-serif;
+   background-color: grey;
+}
+
+h1 {
+	background-color: light-grey; 
+
+}
+
+nav {
+	background-color: pink;
+}
+
+nav li{
+	display: inline;
+	float: left;
+	text-align: center;
+	margin: 0 5%;
+	padding: 0;
+}
+
+
+nav ul{
+	list-style-type: none;
+	background-color: pink;
+  	text-align: center;
+  	margin: 0;
+  	padding: 0;
+}
+
+nav a {
+  color: white;
+  background-color: pink;
+  text-align: center;
+  text-decoration: none;
+  width: 110%;
+  font-size: 1em
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.linky {
+	padding: 1% 1%;
+}
+
+.col1 {
+	float:left;
+	width:75%;
+	background-color: green;
+
+}
+
+.col2 {
+	float: right;
+	width: 25%;
+	background-color: lightblue;
+}
+
+p{
+   
+    padding: 0 3%;
+}
+
+footer {
+	clear:both;
+	background:#cc9;
+}
+
+/*****************
+MEDIA QUERIES
+*****************/
+
+@media screen and (min-width: 900px) {
+  #col2 {
+    background: #2f6497;
+    top: 60%;
+  }
+  #col1 {
+    background: #002d62;
+    left: 0;
+  }
+
