@@ -1,5 +1,6 @@
-for (var x=1; x <= 100; x++) {
-    var skip = 0;
+var retVal = prompt("Enter any number : ", "your number here");
+
+for (var x=1; x <= retVal; x++) {var skip = 0;
     if (x % 3 == 0) {
         document.write('ping');
         skip = 1;
