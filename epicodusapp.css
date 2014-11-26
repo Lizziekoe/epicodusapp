@@ -1,11 +1,16 @@
 body {
    font-family: 'Alegreya Sans SC', sans-serif;
    background-color: grey;
+   margin: 0;
 }
 
 h1 {
 	background-color: light-grey; 
 
+}
+
+.container {
+	background-color: lightblue;
 }
 
 nav {
@@ -14,7 +19,6 @@ nav {
 
 nav li{
 	display: inline;
-	float: left;
 	text-align: center;
 	margin: 0 5%;
 	padding: 0;
@@ -74,13 +78,16 @@ footer {
 MEDIA QUERIES
 *****************/
 
-@media screen and (min-width: 900px) {
-  #col2 {
-    background: #2f6497;
-    top: 60%;
-  }
-  #col1 {
-    background: #002d62;
-    left: 0;
-  }
+@media screen and (max-width: 768px) {
+
+ .col2, .col1 {
+ 	width: 100%;
+ 	float: none;
+ }
+
+
+}
+
+
+
 
